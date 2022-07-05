@@ -1,0 +1,55 @@
+/* body cutomize */
+body {
+    margin: 1rem;
+}
+
+/* The logo */
+
+#newspaper-logo {
+    display: inline-block;
+    position: relative;
+    font-family: 'Tinos', sans-serif2;
+    font-size: 2rem;
+    top: -2rem;
+    left: 1rem;
+}
+/* ! GRID LAYOUT DONT MESS WITH */
+.grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10rem;
+}
+
+.grid img{
+    width: 20rem;
+}
+
+/* ! RESPONSIZE PLS DONT MESS WITH IT */
+
+@media only screen and (max-width:1484px){
+    #grid{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10rem; 
+    }
+}
+
+@media only screen and (max-width:1076px){
+    #grid{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10rem; 
+    }
+}
+
+@media only screen and (max-width:660px){
+    #grid{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10rem; 
+    }
+}
